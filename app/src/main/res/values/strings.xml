@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Royal Hotel</string>
+
+    <string name="txtView">
+        <u>No account? Click here to create one!</u>
+    </string>
+    <string name="usernameEdt">Us    <string name="fullNameEdt">Full name</string>
+ername</string>
+    <string name="passEdt">Password</string>
+    <string name="loginButton"> LOGIN </string>
+    <string name="emailEdt">Email</string>
+    <string name="regButton">REGISTER</string>
+    <string name="txtViewLog">
+        <u> Already have an account? Click here to sign in! </u>
+    </string>
+
+    <string name="allowedNumRule">*must contain one number</string>
+    <string name="lengthPassRule">*length between 5 and 30</string>
+    <string name="osid_textViewToolBarMyProfile">My Profile</string>
+    <string name="osid_buttonSave">Save</string>
+    <string name="osid_mainActivityTitle">
+        Courses
+    </string>
+
+    <string name="osid_textViewWriteNotes">Write Notes</string>
+    <string name="osid_buttonAdd">+</string>
+    <string name="osid_editTextCardNumber">Card Number</string>
+    <string name="osid_textViewCardNumberRules">*16 numbers</string>
+    <string name="osid_editTextCardHolderName">Card Holder Name</string>
+    <string name="osid_textViewCardHolderNameRules">*only english letters</string>
+    <string name="osid_editTextCardCVV">CVV</string>
+    <string name="osid_textViewCardCVVRules">*3 numbers</string>
+    <string name="osid_editTextCardExpireDateMonth">Month - 2#</string>
+    <string name="osid_editTextCardExpireDateYear">Year - 4#</string>
+
+    <string name="osid_navigationDrawerOpen">Open navigation drawer</string>
+    <string name="osid_navigationDrawerClose">Close navigation drawer</string>
+    <string name="osid_titlePlaceholder">title</string>
+    <string name="osid_ratingPlaceholder">rating</string>
+    <string name="osid_pricePlaceholder">Price</string>
+    <string name="osid_buttonRemove">-</string>
+    <string name="osid_numberPlaceholder">1</string>
+    <string name="osid_addToCart">Add to cart</string>
+    <string name="osid_removeFromCart">Remove From Cart</string>
+    <string name="osid_placeOrder">Place Order</string>
+    <string name="osid_totalWithTax">Total With Tax</string>
+    <string name="osid_checkout">Checkout</string>
+    <string name="osid_orderSummary">Orders Summary</string>
+
+
+    <string name="royal_hotel">Royal Hotel</string>
+    <string name="todo">TODO</string>
+    <string name="reception">Reception</string>
+    <string name="customer">Customer</string>
+    <string name="unreserved_rooms">Unreserved rooms</string>
+    <string name="reserved_rooms">Reserved rooms</string>
+    <string name="reserve">Reserve</string>
+    <string name="join_our_hotel_today">Join our Hotel today!</string>
+    <string name="length_between_3_and_30">*length between 3 and 30</string>
+    <string name="example_name_gmail_com">*example: name@gmail.com</string>
+    <string name="enjoy_your_work">Enjoy your work</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9EFF4"
+    tools:context=".ReceptionActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/roomsrecycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C9EFF4"
+        android:layout_marginTop="80dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <ImageButton
+        android:id="@+id/roomsearch"
+        android:layout_width="69dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="48dp"
+        android:onClick="RoomSearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        tools:ignore="MissingConstraints,UsingOnClickInXml"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <Button
+        android:id="@+id/bookcustomer"
+        android:layout_width="224dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="52dp"
+        android:backgroundTint="#C1C5C8"
+        android:text="BOOK FOR Customer"
+        android:textColor="@color/green"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:onClick="BookforCustomer"
+        app:layout_constraintEnd_toStartOf="@+id/roomsearch"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints,OnClick,UsingOnClickInXml" />
+</androidx.constraintlayout.widget.ConstraintLayout>
